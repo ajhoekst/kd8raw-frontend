@@ -1,0 +1,19 @@
+{
+  "name": "kd8raw-frontend",
+  "version": "0.0.1",
+  "description": "Frontend for KD8RAW.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Andrew Hoekstra",
+    "email": "webdev@kd8raw.com",
+    "url": "kd8raw.com"
+  },
+  "license": "GPL-3.0",
+  "repository": "ajhoekst/kd8raw-frontend",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}

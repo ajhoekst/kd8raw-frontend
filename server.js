@@ -6,6 +6,7 @@ var PORT = process.env.PORT || 3002;
 
 // App
 var app = express();
+app.use('/assets', express.static(__dirname+'/public'));
 app.get('/', function (req, res) {
   res.sendFile(__dirname+"/index.html");
 });

@@ -2,7 +2,7 @@ var express = require('express');
 var path = require('path');
 
 // Constants
-var PORT = process.env.PORT || 3010;
+var PORT = process.env.PORT || 3002;
 
 // App
 var app = express();

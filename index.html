@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" ng-app=kd8rawApp>
+    <head>
+        <meta charset="utf-8">
+        <title>KD8RAW - Andrew</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
+        <script src="kd8rawCtrl.js"></script>
+    </head>
+    <body ng-controller=kd8rawCtrl>
+        <ul>
+            <li ng-repeat="message in messages">
+                <h1>{{message.text}} from {{message.name}}!</h1>
+            </li>
+        </ul>
+    </body>
+</html>
